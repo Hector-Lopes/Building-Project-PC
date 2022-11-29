@@ -1,0 +1,27 @@
+*{
+   
+}
+body{
+  
+    background: radial-gradient(circle, rgba(148,187,233,1) 71%, rgba(238,174,202,1) 100%, rgba(148,187,233,1) 100%);
+}
+.background{
+
+    width:99vw;
+    height:40vw;
+    background-color:  rgba(162, 237, 240, 0.425) ;
+    border-radius: 10px;
+   flex-direction: column;
+
+}
+.MAE{
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-direction: row;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
