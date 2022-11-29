@@ -8,10 +8,10 @@
     background-color:  rgba(255, 255, 255, 0.274) !important;
     border-radius: 10px;
     text-align: center;
-    padding-top: 40px;
+  
     display: flex;
     flex-direction: column;
-
+justify-content: space-evenly;
 }
 
 .section{
@@ -34,15 +34,17 @@ h2{
     font-family: 'Encode Sans ', sans-serif;
     color: aliceblue;
 }
-a{
+.Montar,.Cont,.Sup{
     font-size: 45px;
     font-family: 'Encode Sans ', sans-serif;
     letter-spacing: 2px;
     color: rgba(148,187,233,1);
     transition: 0.5s;
-   
+    background-color: transparent;
+   border: none;
+
 }
-a:hover{
+.Montar:hover, .Cont:hover,.Sup:hover {
    
     color: aliceblue;
     font-size: 40px;
