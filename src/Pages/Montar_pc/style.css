@@ -14,7 +14,7 @@ body{
    flex-direction: column;
 
 }
-.MAE{
+.PROCESSADOR_DIV{
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -24,4 +24,14 @@ flex-direction: row;
 form{
     display: flex;
     flex-direction: column;
+}
+#foto{
+    display: flex;
+justify-content: center;    
+
+}
+
+#img{
+    width: 400px;
+    height: fit-content;
 }
