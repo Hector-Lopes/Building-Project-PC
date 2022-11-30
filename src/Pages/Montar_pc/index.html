@@ -2,7 +2,8 @@
 <html lang="pt-br">
 <head>
    <link rel="stylesheet" href="./style.css">
-    <meta charset="UTF-8">
+    
+   <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto</title>
@@ -15,21 +16,27 @@
         </div>
         <div class="MAE">
             <form >
-                <label for="cars">Choose a car:</label>
-                <select name="cars" id="cars">
-                  <optgroup label="Swedish Cars">
-                    <option value="volvo">Volvo</option>
-                    <option value="saab">Saab</option>
+                <label  onchange="change_image()" for="processador">Escolha o Processador</label>
+                <select name="processador" id="processador">
+                  <optgroup label="Intel">
+                    <option value="Pentiu">Pentium</option>
+                    <option value="I3">I3</option>
+                    <option value="I5">I5</option>
+                    <option value="I7">I7</option>
+                    <option value="I9">I9</option>
                   </optgroup>
-                  <optgroup label="German Cars">
-                    <option value="mercedes">Mercedes</option>
-                    <option value="audi">Audi</option>
+                  <optgroup label="AMD">
+                    <option value="Ryzen3">Ryzen 3</option>
+                    <option value="Ryzen5">Ryzen 5</option>
+                    <option value="Ryzen7">Ryzen 7</option>
+                    <option value="Ryzen9">Ryzen 9</option>
+
                   </optgroup>
                 </select>
                 <br><br>
-                <input onclick="change_image()" type="submit" value="Submit">
+                <input  type="submit" value="Submit">
                 <div id="foto">
-                    <img id="imagem" src="/assets/PROCESSADOR.png" alt="Foto do dia">
+                    <img id="img" src="/assets/Processador/PROCESSADOR.png" alt="Foto do dia">
                 </div>              
             </form>
         </div>
@@ -58,5 +65,6 @@
     </div>
 
  <script src="./index.js"></script>   
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </body>
 </html>
