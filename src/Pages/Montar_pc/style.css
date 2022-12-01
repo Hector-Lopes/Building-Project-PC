@@ -1,6 +1,4 @@
-*{
-   
-}
+
 body{
   
     background: radial-gradient(circle, rgba(148,187,233,1) 71%, rgba(238,174,202,1) 100%, rgba(148,187,233,1) 100%);
@@ -32,6 +30,6 @@ justify-content: center;
 }
 
 #img{
-    width: 400px;
+    width: 30%;
     height: fit-content;
 }
