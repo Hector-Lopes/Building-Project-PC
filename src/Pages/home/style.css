@@ -1,20 +1,20 @@
-*{
-  margin: 0px;
+* {
+    margin: 0px;
 }
 
-.menu{
+.menu {
     width: 500px;
     height: 250px;
-    background-color:  rgba(255, 255, 255, 0.274) !important;
+    background-color: rgba(255, 255, 255, 0.274) !important;
     border-radius: 10px;
     text-align: center;
-  
+
     display: flex;
     flex-direction: column;
-justify-content: space-evenly;
+    justify-content: space-evenly;
 }
 
-.section{
+.section {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -22,36 +22,42 @@ justify-content: space-evenly;
 }
 
 
-.section_2          {         
+.section_2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding-top: 10%;
 }
 
-h2{
+h2 {
     font-size: 45px;
     font-family: 'Encode Sans ', sans-serif;
     color: aliceblue;
 }
-.Montar,.Cont,.Sup{
+
+.Montar,
+.Cont,
+.Sup {
     font-size: 45px;
     font-family: 'Encode Sans ', sans-serif;
     letter-spacing: 2px;
-    color: rgba(148,187,233,1);
+    color: rgba(148, 187, 233, 1);
     transition: 0.5s;
     background-color: transparent;
-   border: none;
+    border: none;
 
 }
-.Montar:hover, .Cont:hover,.Sup:hover {
-   
+
+.Montar:hover,
+.Cont:hover,
+.Sup:hover {
+
     color: aliceblue;
     font-size: 40px;
     transition: 0.5s;
 }
 
-body{
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }

@@ -1,35 +1,27 @@
-
-
-function change_image(){
-
-   
-    const processador =$("#formu").val();
+function change_image() {
+  const processador = $("#formu").val();
 
   switch (processador) {
-    case 'Pentium':
-        img.src = '/assets/Processador/pentium7gen.png'
-        $("#teste").hide();
-        break;
-    case 'I3':
-        img.src = '/assets/Processador/i3.png'
-    break;   
-    case 'I5':
-        img.src = '/assets/Processador/i5.png'
-        trocaformularios()
-        break;
-    case 'I7':
-        img.src = '/assets/Processador/i7.png'
-    break;
-    case 'I9':
-        img.src = '/assets/Processador/i9.png'
-        break;
-    default: 
+    case "Pentium":
+      img.src = "/assets/Processador/pentium7gen.png";
+      $("#teste").hide();
+      break;
+    case "I3":
+      img.src = "/assets/Processador/i3.png";
+      break;
+    case "I5":
+      img.src = "/assets/Processador/i5.png";
+      trocaformularios();
+      break;
+    case "I7":
+      img.src = "/assets/Processador/i7.png";
+      break;
+    case "I9":
+      img.src = "/assets/Processador/i9.png";
+      break;
+    default:
       console.log(`Sorry, we are out of ${expr}.`);
-
-    } 
-
-      
-      
+  }
 }
 // document.getElementById("enviar").onclick = function (){
 //      $(".PROCESSADOR_DIV").hide();
@@ -38,65 +30,54 @@ const vlores = [
   {
     nomePeca: "Pentium",
     preco: "",
-    quantidade: ""
+    quantidade: "",
   },
   {
     nomePeca: "I3",
     preco: "",
-    quantidade: ""
+    quantidade: "",
   },
   {
     nomePeca: "I5",
     preco: "",
-    quantidade: ""
+    quantidade: "",
   },
   {
     nomePeca: "I7",
     preco: "",
-    quantidade: ""
+    quantidade: "",
   },
   {
     nomePeca: "I9",
     preco: "",
-    quantidade: ""
+    quantidade: "",
   },
   {
     nomePeca: "Ryzen 3",
     preco: "",
-    quantidade: ""
+    quantidade: "",
   },
   {
     nomePeca: "Ryzen 5",
     preco: "",
-    quantidade: ""
+    quantidade: "",
   },
   {
     nomePeca: "Ryzen 7",
     preco: "",
-    quantidade: ""
+    quantidade: "",
   },
   {
     nomePeca: "Ryzen 9",
     preco: "",
-    quantidade: ""
+    quantidade: "",
   },
-  
+];
 
+function trocaformularios() {
+  //array objstos
 
-
-
-
-]
-
-
-
-function trocaformularios(){
-//array objstos
-
-
-
-  
-  var  Chooseform  = vlores.map(function(a,b) {     
+  var Chooseform = vlores.map(function (a, b) {
     return ` <form >
     <label  for="processador">Escolha o Processador</label>
     <select onchange="change_image()" name="processador" id="processador">
@@ -115,15 +96,9 @@ function trocaformularios(){
   
       </optgroup>
     </select>`;
-  
-  
-  
   });
-  
-  
-  
-  document.querySelector("#teste2").innerHTML =Chooseform.join("");
 
-console.log(Chooseform)
+  document.querySelector("#teste2").innerHTML = Chooseform.join("");
 
+  console.log(Chooseform);
 }
