@@ -6,7 +6,7 @@ body {
 .background {
 
     width: 99vw;
-    height: 40vw;
+ 
     background-color: rgba(162, 237, 240, 0.425);
     border-radius: 10px;
     flex-direction: column;
@@ -26,12 +26,20 @@ form {
 }
 
 #foto {
-    display: flex;
-    justify-content: center;
 
+width: 50vh;
 }
 
 #img {
     width: 30%;
     height: fit-content;
+}
+#tabela{
+padding: 100px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.pc{
+    width:500px;
 }

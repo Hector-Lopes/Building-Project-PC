@@ -1,47 +1,57 @@
 [
-    {
-      "nomePeca": "Pentium",
-      "preco": "",
-      "quantidade": ""
-    },
-    {
-      "nomePeca": "I3",
-      "preco": "",
-      "quantidade": ""
-    },
-    {
-      "nomePeca": "I5",
-      "preco": "",
-      "quantidade": ""
-    },
-    {
-      "nomePeca": "I7",
-      "preco": "",
-      "quantidade": ""
-    },
-    {
-      "nomePeca": "I9",
-      "preco": "",
-      "quantidade": ""
-    },
-    {
-      "nomePeca": "Ryzen 3",
-      "preco": "",
-      "quantidade": ""
-    },
-    {
-      "nomePeca": "Ryzen 5",
-      "preco": "",
-      "quantidade": ""
-    },
-    {
-      "nomePeca": "Ryzen 7",
-      "preco": "",
-      "quantidade": ""
-    },
-    {
-      "nomePeca": "Ryzen 9",
-      "preco": "",
-      "quantidade": ""
-    }
-  ]
+  {
+    "nomePeca": "Pentium",
+    "preco": "",
+    "quantidade": "",
+    "imagem": "/assets/Processador/pentium7gen.png"
+  },
+  {
+    "nomePeca": "I3",
+    "preco": "",
+    "quantidade": "",
+    "imagem": "/assets/Processador/pentium7gen.png"
+  },
+  {
+    "nomePeca": "I5",
+    "preco": "",
+    "quantidade": "",
+    "imagem": "/assets/Processador/pentium7gen.png"
+  },
+  {
+    "nomePeca": "I7",
+    "preco": "",
+    "quantidade": "",
+    "imagem": "/assets/Processador/pentium7gen.png"
+  },
+  {
+    "nomePeca": "I9",
+    "preco": "",
+    "quantidade": "",
+    "imagem": "/assets/Processador/pentium7gen.png"
+  },
+  {
+    "nomePeca": "Ryzen 3",
+    "preco": "",
+    "quantidade": "",
+    "imagem": "/assets/Processador/pentium7gen.png"
+  },
+  {
+    "nomePeca": "Ryzen 5",
+    "preco": "",
+    "quantidade": "",
+    "imagem": "/assets/Processador/pentium7gen.png"
+  },
+  {
+    "nomePeca": "Ryzen 7",
+    "preco": "",
+    "quantidade": "",
+    "imagem": "/assets/Processador/pentium7gen.png"
+  },
+  {
+    "nomePeca": "Ryzen 9",
+    "preco": "",
+    "quantidade": "",
+    "imagem": "/assets/Processador/pentium7gen.png"
+  }
+]
+
