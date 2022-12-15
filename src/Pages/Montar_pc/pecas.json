@@ -3,55 +3,65 @@
     "nomePeca": "Pentium",
     "preco": "",
     "quantidade": "",
-    "imagem": "/assets/Processador/pentium7gen.png"
+    "imagem": "/assets/Processador/pentium7gen.png",
+    "Tipo":"Processador"
   },
   {
     "nomePeca": "I3",
     "preco": "",
     "quantidade": "",
-    "imagem": "/assets/Processador/pentium7gen.png"
+    "imagem": "/assets/Processador/pentium7gen.png",
+    "Tipo":"Processador"
   },
   {
     "nomePeca": "I5",
     "preco": "",
     "quantidade": "",
-    "imagem": "/assets/Processador/pentium7gen.png"
+    "imagem": "/assets/Processador/pentium7gen.png",
+    "Tipo":"Processador"  
   },
   {
     "nomePeca": "I7",
     "preco": "",
     "quantidade": "",
-    "imagem": "/assets/Processador/pentium7gen.png"
+    "imagem": "/assets/Processador/pentium7gen.png",
+    "Tipo":"Processador"
   },
   {
     "nomePeca": "I9",
     "preco": "",
     "quantidade": "",
-    "imagem": "/assets/Processador/pentium7gen.png"
+    "imagem": "/assets/Processador/pentium7gen.png",
+    "Tipo":"Processador" 
   },
   {
     "nomePeca": "Ryzen 3",
     "preco": "",
     "quantidade": "",
-    "imagem": "/assets/Processador/pentium7gen.png"
+    "imagem": "/assets/Processador/pentium7gen.png",
+    "Tipo":"Processador"
   },
   {
     "nomePeca": "Ryzen 5",
     "preco": "",
     "quantidade": "",
-    "imagem": "/assets/Processador/pentium7gen.png"
+    "imagem": "/assets/Processador/pentium7gen.png",
+    "Tipo":"Processador"
   },
   {
     "nomePeca": "Ryzen 7",
     "preco": "",
     "quantidade": "",
-    "imagem": "/assets/Processador/pentium7gen.png"
+    "imagem": "/assets/Processador/pentium7gen.png",
+    "Tipo":"Processador"
   },
+
   {
     "nomePeca": "Ryzen 9",
     "preco": "",
     "quantidade": "",
-    "imagem": "/assets/Processador/pentium7gen.png"
+    "imagem": "/assets/Processador/pentium7gen.png",
+    "Tipo":"Processador"
   }
 ]
 

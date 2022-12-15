@@ -13,7 +13,7 @@ body {
 
 }
 
-.PROCESSADOR_DIV {
+.section {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -35,11 +35,25 @@ width: 50vh;
     height: fit-content;
 }
 #tabela{
-padding: 100px;
+
     display: flex;
     flex-flow: row wrap;
 }
 
 .pc{
     width:500px;
+}
+
+.side_menu{
+
+    width:800px;
+  height: 500px;
+    background-color: black;
+    position:relative ;
+}
+
+.section_2{
+    display: flex;
+padding: 50px;
+
 }
