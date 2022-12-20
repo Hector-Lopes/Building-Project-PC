@@ -14,9 +14,19 @@ function trocaformularios() {
 
   switch (processador) {
     case "Processador":
-      const teste = $VLores.map((elemento, indice) => {
-        const divId = document.querySelector("#tabela");
-       
+
+    let Filtrar = $VLores.filter(function (Filtrado) {
+      return Filtrado.Tipo === "Processador";
+    })
+    // .map(function (Filtrado) {
+    //   return Filtrado.nomePeca;
+      
+    // })
+    console.log(Filtrar); 
+    const teste = Filtrar.map((elemento, indice) => {
+         const divId = document.querySelector("#tabela");
+
+
           divId.innerHTML += ` 
             <div id="form">
             <div id="foto">
@@ -27,7 +37,7 @@ function trocaformularios() {
             </form> 
            </div>
             `;  
-          });
+           });
           const Sidediv=document.querySelector(".section_2");
           $(".pc").hide();
           Sidediv.innerHTML +=` 
