@@ -1,5 +1,13 @@
 [
   {
+    "nomePeca": "",
+    "preco": "",
+    "quantidade": "",
+    "imagem": "",
+    "Tipo":"Vazio"
+  },
+  
+  {
     "nomePeca": "Pentium",
     "preco": "",
     "quantidade": "",
@@ -61,7 +69,93 @@
     "preco": "",
     "quantidade": "",
     "imagem": "/assets/Processador/pentium7gen.png",
-    "Tipo":"Proc"
-  }
+    "Tipo":"Processador"
+  },
+  {
+    "nomePeca": "Prime H310M-E R2.0",
+    "preco": "",
+    "quantidade": "",
+    "imagem": "/assets/Processador/pentium7gen.png",
+    "Tipo":"MAE"
+  } ,
+  {
+    "nomePeca": "Prime H410M-E",
+    "preco": "",
+    "quantidade": "",
+    "imagem": "/assets/Processador/pentium7gen.png",
+    "Tipo":"MAE"
+  } ,
+  {
+    "nomePeca": "B365M DS3H",
+    "preco": "",
+    "quantidade": "",
+    "imagem": "/assets/Processador/pentium7gen.png",
+    "Tipo":"MAE"
+  } ,
+  {
+    "nomePeca": "Z490M Gaming X",
+    "preco": "",
+    "quantidade": "",
+    "imagem": "/assets/Processador/pentium7gen.png",
+    "Tipo":"MAE"
+  } ,
+  {
+    "nomePeca": "Z390 M Gaming ",
+    "preco": "",
+    "quantidade": "",
+    "imagem": "/assets/Processador/pentium7gen.png",
+    "Tipo":"MAE"
+  } ,
+  {
+    "nomePeca": "ASRock A320M",
+    "preco": "",
+    "quantidade": "",
+    "imagem": "/assets/Processador/pentium7gen.png",
+    "Tipo":"MAE"
+  } ,
+  {
+    "nomePeca": "MSI B350 Tomahawk",
+    "preco": "",
+    "quantidade": "",
+    "imagem": "/assets/Processador/pentium7gen.png",
+    "Tipo":"MAE"
+  } ,
+  {
+    "nomePeca": "Biostar Racing X370GTN",
+    "preco": "",
+    "quantidade": "",
+    "imagem": "/assets/Processador/pentium7gen.png",
+    "Tipo":"MAE"
+  } ,
+  {
+    "nomePeca": "Gigabyte Aorus AX370",
+    "preco": "",
+    "quantidade": "",
+    "imagem": "/assets/Processador/pentium7gen.png",
+    "Tipo":"MAE"
+  } ,
+  {
+    "nomePeca": "Asus ROG Strix X470-F",
+    "preco": "",
+    "quantidade": "",
+    "imagem": "/assets/Processador/pentium7gen.png",
+    "Tipo":"MAE"
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ]
 
