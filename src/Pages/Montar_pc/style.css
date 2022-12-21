@@ -4,7 +4,7 @@ body {
 }
 
 .background {
-
+    
     width: 99vw;
  
     background-color: rgba(162, 237, 240, 0.425);
@@ -18,6 +18,7 @@ body {
     flex-direction: row;
     justify-content: center;
     flex-direction: row;
+
 }
 
 form {
@@ -25,9 +26,9 @@ form {
     flex-direction: column;
 }
 
-#foto {
+#foto_mae,#foto_Processador {
 
-width: 50vh;
+width: 40vh;
 }
 
 #img {
@@ -35,9 +36,10 @@ width: 50vh;
     height: fit-content;
 }
 #tabela{
-
+width: 200vw;
     display: flex;
     flex-flow: row wrap;
+justify-content: flex-start;
 }
 
 .pc{
@@ -45,15 +47,13 @@ width: 50vh;
 }
 
 .side_menu{
-
-    width:800px;
-  height: 500px;
+    
+  width:1000px;
     background-color: black;
-    position:relative ;
+
 }
 
 .section_2{
     display: flex;
 padding: 50px;
-
 }
