@@ -38,9 +38,9 @@ function trocaformularios() {
            </div>
             `;  
            });
-          const Sidediv=document.querySelector(".section_2");
+         const Sidediv=document.querySelector(".section_2");
           $(".pc").hide();
-          $(".side_menu").hide();
+        $(".side_menu").hide();
           
          
           Sidediv.innerHTML +=` 
@@ -76,18 +76,18 @@ function trocaformularios() {
              </div>
               `;  
              });
-            const Sidediv_MAE=document.querySelector(".section_2");
+            // const Sidediv_MAE=document.querySelector(".section_2");
             $(".pc").hide();
-          $(".side_menu").hide();
+          // $(".side_menu").hide();
     
          
-            Sidediv_MAE.innerHTML +=` 
+          //   Sidediv_MAE.innerHTML +=` 
             
-            <div class="side_menu">
+          //   <div class="side_menu">
           
-            </div>
+          //   </div>
             
-           `;
+          //  `;
 
 
 

@@ -5,7 +5,7 @@ body {
 
 .background {
     
-    width: 99vw;
+    width: 100%;
  
     background-color: rgba(162, 237, 240, 0.425);
     border-radius: 10px;
@@ -56,4 +56,5 @@ justify-content: flex-start;
 .section_2{
     display: flex;
 padding: 50px;
+
 }
