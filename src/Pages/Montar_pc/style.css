@@ -4,20 +4,19 @@ body {
 }
 
 .background {
-    
-    width: 100%;
  
+   
     background-color: rgba(162, 237, 240, 0.425);
     border-radius: 10px;
     flex-direction: column;
-
-}
+   margin: 100px;
+} 
 
 .section {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-direction: row;
+  
 
 }
 
