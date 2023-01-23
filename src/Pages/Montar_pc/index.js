@@ -1,5 +1,5 @@
 fetch("./pecas.json")
-  .then((response) => response.json())
+  .then((response) => response.json())// Importando informações do json 
   .then((vlores) => {
     $VLores = vlores;
     console.log($VLores);
@@ -10,12 +10,12 @@ fetch("./pecas.json")
 
 function trocaformularios() {
  
-  const Droplist = $("#formu").val();
+  const Droplist = $("#formu").val(); // pegando informação do select formulario
 
   switch (Droplist) {
     case "Processador":
 
-    let Filtrar_processador = $VLores.filter(function (Filtrado) {
+    let Filtrar_processador = $VLores.filter(function (Filtrado) { //Pega todas os valores do json e filtra baseado no (case) acima
       return Filtrado.Tipo === "Processador";
     })
     // .map(function (Filtrado) {
@@ -23,10 +23,10 @@ function trocaformularios() {
       
     // })
     console.log(Filtrar_processador); 
-    const PROCESSADOR = Filtrar_processador.map((elemento, indice) => {
-         const divId = document.querySelector("#tabela");
+    const PROCESSADOR = Filtrar_processador.map((elemento, indice) => { //Pega os valores ja filtrados e passa por todos
+         const divId = document.querySelector("#tabela");//div que vai inserir
 
-
+          //Insere todos os valores passados pelo map e insere no html
           divId.innerHTML += ` 
             <div id="form">
             <div id="foto_Processador">
